@@ -3,13 +3,27 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
-        Car car1 = new Car();
-        Car car2 = new Car();
-        car1.speed = 230;
-        car2.speed = 210;
-        car1.number = 1;
-        car2.number = 2;
-        car1.run();
-        car2.run();
+        병사 a병사 = new 병사();
+        a병사.이름 = "홍길동";
+
+        a병사.자기소개();
+        // 안녕하세요. 저는 홍길동 이병 입니다.
+        a병사.공격();
+        // 홍길동 이병이 공격합니다.(공격력 : 7)
+
+        a병사.진급();
+
+        a병사.자기소개();
+        // 안녕하세요. 저는 홍길동 일병 입니다.
+        a병사.공격();
+        // 홍길동 일병이 공격합니다.(공격력 : 9)
+
+        a병사.진급();
+
+        a병사.자기소개();
+        // 안녕하세요. 저는 홍길동 상병 입니다.
+        a병사.공격();
+        // 홍길동 상병이 공격합니다.(공격력 : 11)
     }
 }
+
